@@ -1,5 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    printf("zap! zap! zap! \nZeus is coming");
+    int a,b;
+    scanf("%d %d", &a, &b);
+    int s=a+b;
+    printf("%d", s);
 }
